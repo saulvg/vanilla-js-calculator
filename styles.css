@@ -59,3 +59,35 @@ body {
 .key--equals:hover {
   background-color: #1976d2;
 }
+
+@media (max-width: 480px) {
+  .calculator {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0.5rem;
+    box-shadow: none;
+  }
+
+  .calculator__display {
+    flex: 0 0 auto;
+    height: 4rem;
+    font-size: 2rem;
+  }
+
+  .calculator__keys {
+    flex: 1;
+    display: grid;
+    grid-auto-rows: 1fr;
+    gap: 0.25rem;
+  }
+
+  .key {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
