@@ -23,10 +23,10 @@ Una calculadora básica desarrollada con **JavaScript puro**, HTML y CSS, para r
 
 ## 📱 / 🖥️ Capturas
 
-# 🖥️ Vista Desktop
+### 🖥️ Vista Desktop
 
 <p align="center"> <img src="assets/screenshotDesktop.png" alt="Calculadora en vista desktop" width="300px" /> </p>
 
-# 📱 Vista Móvil
+### 📱 Vista Móvil
 
-<p align="center"> <img src="assets/screenshotMobile.png" alt="Calculadora en vista móvil" width="300px" /> </p> ```
+<p align="center"> <img src="assets/screenshotMobile.png" alt="Calculadora en vista móvil" width="250px" /> </p>
