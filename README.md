@@ -1,5 +1,8 @@
 # Vanilla JS Calculator
 
+![Captura de la calculadora](assets/screenshotDesktop.png)
+![Captura de la calculadora](assets/screenshotMobile.png)
+
 Una calculadora básica desarrollada con **JavaScript puro**, HTML y CSS, para repasar fundamentos sin frameworks.
 
 ## 📂 Estructura
