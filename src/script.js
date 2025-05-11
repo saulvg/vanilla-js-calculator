@@ -114,3 +114,30 @@ function performCalculation(displayedNum) {
 
 resetCalculator();
 resetHistory();
+
+document.addEventListener("keydown", (event) => {
+  const key = event.key;
+  const buttons = Array.from(keys.querySelectorAll(".key"));
+  let button;
+
+  if (/\d/.test(key)) {
+    button = buttons.find(
+      (btn) => btn.dataset.action === "digit" && btn.textContent === key
+    );
+  } else if (key === ".") {
+    button = buttons.find((btn) => btn.dataset.action === "decimal");
+  } else if (["+", "-", "*", "/"].includes(key)) {
+    button = buttons.find(
+      (btn) => btn.dataset.action === "operator" && btn.textContent === key
+    );
+  } else if (key === "=" || key === "Enter") {
+    button = keys.querySelector(".key--equals");
+  } else if (key.toLocaleLowerCase() === "c" || key === "Backspace") {
+    button = buttons.find((btn) => btn.dataset.action === "clear");
+  }
+
+  if (button) {
+    button.click();
+    event.preventDefault();
+  }
+});
