@@ -4,9 +4,36 @@ Una calculadora básica desarrollada con **JavaScript puro**, HTML y CSS, para r
 
 ## 📂 Estructura
 
+VANILLA-JS-CALCULATOR
+├── assets/
+│ ├── screenshotDesktop.png
+│ └── screenshotMobile.png
+├── src/
+│ ├── utils/
+│ │ └── script.js
+│ └── index.html
+├── styles.css
+└── README.md
+
+VANILLA-JS-CALCULATOR
+├── assets/
+│ ├── screenshotDesktop.png
+│ └── screenshotMobile.png
+│
+├── src/
+│ ├──script.js
+│ └── utils/  
+│ └── helpers.js
+│
+├── index.html
+├── styles.css
+└── README.md
+
 - `index.html` - interfaz de usuario.
 - `style.css` - estilos con BEM-lite.
-- `script.js` - lógica de la calculadora en módulo ES
+- `src/utils/script.js` - lógica de la calculadora en módulo ES
+- `src/utils/helpers.js` – funciones auxiliares
+- `assets/` – capturas de pantalla (PNG)
 
 ## ⚙️ Tecnologías
 
