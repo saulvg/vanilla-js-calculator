@@ -4,30 +4,59 @@ Una calculadora básica desarrollada con **JavaScript puro**, HTML y CSS, para r
 
 ## 📂 Estructura
 
-VANILLA-JS-CALCULATOR
-├── assets/
-│ ├── screenshotDesktop.png
-│ └── screenshotMobile.png
-├── src/
-│ ├── utils/
-│ │ └── script.js
-│ └── index.html
-├── styles.css
-└── README.md
+## 📂 Estructura
 
-VANILLA-JS-CALCULATOR
-├── assets/
-│ ├── screenshotDesktop.png
-│ └── screenshotMobile.png
-│
-├── src/
-│ ├──script.js
-│ └── utils/  
-│ └── helpers.js
-│
-├── index.html
-├── styles.css
-└── README.md
+- **assets/**
+  - `screenshotDesktop.png`
+  - `screenshotMobile.png`
+- **src/**
+  - **utils/**
+    - `script.js`
+    - `helpers.js`
+- `index.html`
+- `styles.css`
+- `README.md`
+
+<details>
+  <summary>📂 Estructura</summary>
+
+- **assets/**
+  - `screenshotDesktop.png`
+  - `screenshotMobile.png`
+- **src/**
+  - **utils/**
+    - `script.js`
+    - `helpers.js`
+- `index.html`
+- `styles.css`
+- `README.md`
+
+</details>
+
+flowchart TB
+subgraph assets
+A[screenshotDesktop.png]
+B[screenshotMobile.png]
+end
+
+subgraph src
+subgraph utils
+C[script.js]
+D[helpers.js]
+end
+end
+
+E[index.html]
+F[styles.css]
+G[README.md]
+
+assets --> src --> E
+src --> F
+src --> G
+
+Puedes ver la estructura completa en la vista de repositorio:
+
+👉 [Ver carpeta `src/utils/` en GitHub](https://github.com/saulvg/vanilla-js-calculator/tree/main/src/utils)
 
 - `index.html` - interfaz de usuario.
 - `style.css` - estilos con BEM-lite.
