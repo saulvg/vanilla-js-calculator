@@ -12,7 +12,6 @@ const state = {
   waitingForSecondValue: false,
 };
 
-//[99 -]
 let history = [];
 
 function renderHistory() {
