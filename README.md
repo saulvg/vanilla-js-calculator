@@ -7,9 +7,9 @@ Una calculadora básica desarrollada con **JavaScript puro**, HTML y CSS, para r
 - `index.html` - interfaz de usuario.
 - `style.css` - estilos con BEM-lite.
 - `src/utils/script.js` - lógica de la calculadora en módulo ES
-  - 🔗 [Ver carpeta `src/` en GitHub](https://github.com/saulvg/vanilla-js-calculator/tree/main/src)
+  - 🔗 [Ver carpeta `src/`](https://github.com/saulvg/vanilla-js-calculator/tree/main/src)
 - `src/utils/helpers.js` – funciones auxiliares
-  - 🔗 [Ver carpeta `src/utils/` en GitHub](https://github.com/saulvg/vanilla-js-calculator/tree/main/src/utils)
+  - 🔗 [Ver carpeta `src/utils/`](https://github.com/saulvg/vanilla-js-calculator/tree/main/src/utils)
 - `assets/` – capturas de pantalla (PNG)
 
 ## ⚙️ Tecnologías
